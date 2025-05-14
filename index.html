@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>សេចក្ដីណែនាំអំពីការប្រើប្រាស់អ៊ីមែល</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+  <h2>២. ការណែនាំអំពីការកំណត់អ៊ីមែលលើកម្មវិធីផ្សេងៗ</h2>
+
+  <!-- Thunderbird -->
+  <div class="section">
+    <h3>a. Mozilla Thunderbird</h3>
+    <ol>
+      <li>ចូលទៅកាន់ <strong>Mozilla Thunderbird</strong> ដែលបានដំឡើងរួច។
+        <img class="step-img" src="/images/Thunderbird_logo_60.png" alt="បើក Thunderbird">
+      </li>
+      <li>បង្អួច "Set Up Your Existing Email Address" នឹងបង្ហាញឡើង...</li>
+      <li>បញ្ចូលព័ត៌មានខាងក្រោម៖
+        <ul>
+          <li>ឈ្មោះពេញ (Full Name): ឈ្មោះអ្នក</li>
+          <li>អាសយដ្ឋានអ៊ីមែល៖ <span class="email">demo@your-name.com</span></li>
+          <li>ពាក្យសម្ងាត់ (Password): ពាក្យសម្ងាត់របស់គណនី</li>
+        </ul>
+        <img class="step-img" src="images/thunderbird-enter-info.png" alt="បញ្ចូលព័ត៌មាន Thunderbird">
+      </li>
+      <li>ចុច “Continue” →</li>
+      <li>បើ Manual config:
+        <ul>
+          <li>Incoming: IMAP - imap.yourdomain.com - Port 993 - SSL/TLS</li>
+          <li>Outgoing: SMTP - smtp.yourdomain.com - Port 587 - STARTTLS</li>
+          <li>Authentication: Normal password</li>
+        </ul>
+        <img class="step-img" src="images/reset_done.jpg" alt="Thunderbird setup window">
+      </li>
+      <li>ចុច “Re-test” → បន្ទាប់មក “Done”។
+      </li>
+    </ol>
+    <div class="note">💡 <strong>ចំណាំ:</strong> Thunderbird គាំទ្រការប្រើប្រាស់គណនីជាច្រើន និងមានប្រព័ន្ធសុវត្ថិភាពល្អ។</div>
+  </div>
+
+  <!-- Outlook -->
+  <div class="section">
+    <h3>b. Microsoft Outlook</h3>
+    <ol>
+      <li>បើកកម្មវិធី <strong>Microsoft Outlook</strong>។
+        <img class="step-img" src="images/open_microsoft.png" alt="បើក Outlook">
+      </li>
+      <li>ចុច "File" → "Add Account"។
+        <img class="step-img" src="images/Add-Account.png" alt="Outlook Add Account">
+      </li>
+      <li>បញ្ចូលអាសយដ្ឋានអ៊ីមែល៖ <span class="email">demo@your-name.com</span>
+        <img class="step-img" src="images/Add-Email.png" alt="បញ្ចូលអាសយដ្ឋាន Outlook">
+      </li>
+      <li>បញ្ចូលពាក្យសម្ងាត់ →
+        <img class="step-img" src="images/Add_pass.png" alt="បញ្ចូលពាក្យសម្ងាត់ Outlook">
+      </li>
+      <li>Manual config:
+        <ul>
+          <li>Advanced options → “Let me set up my account manually”</li>
+          <li>ជ្រើស IMAP → បញ្ចូល server, port, និង authentication</li>
+        </ul>
+        <img class="step-img" src="images/Manual_Ouk.png" alt="Outlook Manual Config">
+      </li>
+    </ol>
+    <div class="note">💡 <strong>ដំណឹងល្អ:</strong> Outlook មានសមត្ថភាពគ្រប់គ្រងអ៊ីមែល, ប្រតិទិន, និងព្រឹត្តិការណ៍។</div>
+  </div>
+
+  <!-- Gmail Send As -->
+  <div class="section">
+    <h3>c. Google Gmail “Send As”</h3>
+    <ol>
+      <li>ចូលទៅក្នុងគណនី Gmail។
+        <img class="step-img" src="images/login_email.jpg" alt="Login Gmail">
+      </li>
+      <li>ចុច "Settings" → “See all settings” → “Accounts and Import”។
+        <img class="step-img" src="images/acc_import.jpg" alt="Gmail Settings">
+      </li>
+      <li>ចុច “Add another email address”។
+        <img class="step-img" src="images/add_other.png" alt="Gmail Add Email Address">
+      </li>
+      <li>បញ្ចូលឈ្មោះអ្នក និងអាសយដ្ឋាន៖ <span class="email">demo@your-name.com</span>
+        <img class="step-img" src="images/gmail_set.png" alt="Gmail Enter Info">
+      </li>
+      <li>បញ្ចូល SMTP Server:
+        <ul>
+          <li>SMTP Server: smtp.yourdomain.com</li>
+          <li>Username: demo@your-name.com</li>
+          <li>Password: (ពាក្យសម្ងាត់អ៊ីមែល)</li>
+          <li>Port: 587 | Security: TLS</li>
+        </ul>
+        <img class="step-img" src="images/gmail_enter_info.jpg" alt="Gmail SMTP Setup">
+      </li>
+      <li>បញ្ចូលកូដ Verify →
+        <img class="step-img" src="images/verify.jpg" alt="Gmail Verify Code">
+      </li>
+    </ol>
+    <div class="note">💡 <strong>ប្រយោជន៍:</strong> អ្នកអាចប្រើ Gmail ដើម្បីផ្ញើអ៊ីមែលពីគណនីផ្សេងៗ ដោយមិនចាំបាច់ចេញពី Gmail Account របស់អ្នក។</div>
+  </div>
+
+</body>
+</html>
